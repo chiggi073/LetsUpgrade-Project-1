@@ -1,0 +1,12 @@
+function calculateArea(length, width) {
+  let area = length * width;
+  return area;
+}
+
+// Usage:
+const length = 5;
+const width = 3; 
+
+const rectArea = calculateArea(length, width);
+
+console.log(rectArea); // Outputs 15
